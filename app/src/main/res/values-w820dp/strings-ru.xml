@@ -1,0 +1,103 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="riw">Weight, g</string>
+    <string name="riu">Carbohydrates g per 100g</string>
+    <string name="rib">Proteins g per 100g</string>
+    <string name="rig">Fat g per 100g</string>
+    <string name="rik">Kcal per 100g</string>
+    <string name="blu">Food</string>
+    <string name="show">The stock version is shown only 2 meals</string>
+    <string name="show1">Check the Internet connection</string>
+    <string name="item1">Use counting</string>
+    <string name="item2">Customize products work in the paid version</string>
+    <string name="edit_weight_2" translatable="false">fgf</string>
+    <string name="ge">Sex</string>
+    <string name="edit_weight4">Male</string>
+    <string name="edit_weight5">Female</string>
+    <string name="edit_1">Your weight </string>
+    <string name="edit_2">Your age </string>
+    <string name="edit_3">waist</string>
+    <string name="edit_4">Height</string>
+    <string name="edit_weight_cal">Calculate a diet</string>
+    <string name="edit_5">Number of days</string>
+    <string name="tw">The weight must not be less than 40 and not more than 120 kg</string>
+    <string name="td">The number of days should be no more than 5</string>
+    <string name="tz">Waist in the range 40 155 cm</string>
+    <string name="ro">Height in the range of 140 -210 cm</string>
+    <string name="le">Years in the range of 18-120</string>
+    <string name="day">Day</string>
+    <string name="app_name">Diet for Weight Loss</string>
+    <string name="si1">Diet for Weight Loss</string>
+    <string name="d_prom">Diet for Weight Loss</string>
+    <string name="d_sh">Diet for Weight Loss</string>
+    <string name="save_m">Diet added</string>
+    <string name="d_eat">Ate</string>
+    <string name="list_menu">Grocery list </string>
+    <string name="calculate">Calculate a diet</string>
+    <string name="o_menu">Download diet</string>
+    <string name="a_menu">About the program </string>
+    <string name="wait">Wait</string>
+    <string name="wai">update information</string>
+    <string name="about_t">Наша диета предназначена в основном для тех, кто мало двигается, почти не занимается спортом и хочет похудеть.
+Мы рассчитываем сбалансированное питания на основе полезных продуктов.
+Многим мужчинам и женщинам интересно узнать, существуют ли на самом деле диеты эффективные именно для быстрого похудения? Или это лишь миф и трюк для производителей БАДов? Меж тем в жизни бывают моменты (и не мало), когда нужно срочно влезть в любимые шорты или моментально преобразиться перед важнейшим в жизни торжеством... Существуют ли диеты на этот случай? Определенно - да!
+
+Наше приложение содержит
+- Калькулятор диеты
+- Рецепты блюд здорового питания для похудения
+- Описание полезных продуктов
+- Калькулятор калорий (ближайшая версия)
+- Дневник веса (ближайшая версия)
+- Дневник питания (ближайшая версия)
+- Два калькулятора диеты (скоро)
+Похудеть легко и быстро хотят все, вот только эффект получают не все. Почему? Специалисты по похудению утверждают, а люди, которым удалось похудеть, вторят им – каждому человеку нужна своя, отличная от других система сброса веса. Одной похудеть помогут диеты, второй нужен фитнес, другие нуждаются в очищении организма, решении проблем со здоровьем, потому что причины полноты разные. И, чтобы быстро и эффективно похудеть, каждой из нас предстоит выбрать свой личный комплекс из диет для похудения, фитнеса, очистительных программ.
+Основные особенности
+- Диета для похудения
+- Диета для похудения 10 кг за неделю
+- Диета белковая
+- Диета любимая</string>
+    <string name="gr_menu">weight Schedule</string>
+    <string name="kal_menu">calorie Calculator</string>
+    <string name="zgr_titl">weight Schedule</string>
+    <string name="calc_a">you ate</string>
+    <string name="calc_b">G Protein:</string>
+    <string name="calc_g">G Fat:</string>
+    <string name="calc_k">Kcal:</string>
+    <string name="calc_s">Add to diary</string>
+    <string name="calc_t">Calculator</string>
+    <string name="calc_u">G Carbohydrates:</string>
+
+    <string name="evz">c</string>
+    <string name="edit_weight">Your weight: </string>
+    <string name="ev_d">date </string>
+    <string name="ev_v">Weight</string>
+    <string name="ev_b">New entry</string>
+    <string name="p_t">Enter the time</string>
+    <string name="feat_t">Enter eaten</string>
+    <string name="feat_g">How many grams eaten</string>
+    <string name="feat_c">calculate calories</string>
+    <string name="feat_e">Check the entered data</string>
+    <string name="feat_b">Adding a blog to 8 works in the pro version</string>
+    <string name="feat_s">New entry included</string>
+    <string name="d_no">No </string>
+    <string name="d_yes">Yes</string>
+    <string name="fdn_">Weight, g</string>
+    <string name="fdn_b">Proteins, g:</string>
+    <string name="fdn_g">Fats, g:</string>
+    <string name="fdn_u">Carbohydrates, g:</string>
+    <string name="fdn_o">Chart</string>
+    <string name="fdn_k">KCalories:</string>
+    <string name="fdn_n">No data. Send your data to the screen, the calculation of calories</string>
+    <string name="zgr_del">Delete entry</string>
+    <string name="dn_but">Todays blog</string>
+    <string name="dn_title">Choose a date diary</string>
+    <string name="dna_menu">A diary </string>
+</resources>

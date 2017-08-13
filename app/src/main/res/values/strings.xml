@@ -1,0 +1,94 @@
+<resources>
+    <string name="fm_titl">The calculation of the norms in a given day</string>
+
+    <string name="a_snak">First, you need to calculate diet</string>
+    <string name="fm_title">Rate app</string>
+    <string name="fm_g">from norm</string>
+    <string name="fm_b">Calculate the norm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="riw">Weight, g</string>
+    <string name="riu">Carbohydrates g per 100g</string>
+    <string name="rib">Proteins g per 100g</string>
+    <string name="rig">Fat g per 100g</string>
+    <string name="rik">Kcal per 100g</string>
+    <string name="blu">Food</string>
+    <string name="show">The stock version is shown only 2 meals</string>
+    <string name="show1">Check the Internet connection</string>
+    <string name="item1">Use counting</string>
+    <string name="item2">Customize products work in the paid version</string>
+    <string name="edit_weight_2" translatable="false">fgf</string>
+    <string name="ge">Sex</string>
+    <string name="edit_weight4">Male</string>
+    <string name="edit_weight5">Female</string>
+    <string name="edit_1">Your weight </string>
+    <string name="edit_2">Your age </string>
+    <string name="edit_3">waist</string>
+    <string name="edit_4">Height </string>
+    <string name="edit_weight_cal">Calculate a diet</string>
+    <string name="edit_5">Number of days</string>
+    <string name="tw">The weight must not be less than 40 and not more than 120 kg</string>
+    <string name="td">The number of days should be no more than 5</string>
+    <string name="tz">Waist in the range 40 155 cm</string>
+    <string name="ro">Growth in the range of 140 -210 cm</string>
+    <string name="le">Years in the range of 18-120</string>
+    <string name="day">Day</string>
+    <string name="app_name">Diet for Weight Loss</string>
+    <string name="si1">Diet for Weight Loss</string>
+    <string name="d_prom">Diet for Weight Loss</string>
+    <string name="d_sh">Diet for Weight Loss</string>
+    <string name="save_m">Diet added</string>
+    <string name="d_eat">Ate</string>
+    <string name="list_menu">Grocery list </string>
+    <string name="calculate">Calculate a diet</string>
+    <string name="o_menu">Download diet</string>
+    <string name="a_menu">About the program </string>
+    <string name="wait">Wait</string>
+    <string name="wai">update information</string>
+    <string name="about_t">Our diet is designed primarily for those who move little, almost do not play sports and want to lose weight. We expect a balanced diet based on healthy foods. Many men and women are interested in finding out whether there really are effective diets for fast weight loss. Or is it just a myth and a trick for the producers of dietary supplements? Meanwhile, in life there are moments (and not a few) when you need to quickly climb into your favorite shorts or instantly change before the most important in life celebration ... Are there any diets for this case? Definitely yes! Our app contains - Diet Calculator - Healthy diet food recipes - Description of useful products - Calorie Calculator (next version) - Weight Diary (next version) - Diary of nutrition (the nearest version) - Two diet calculators (coming soon) Lose weight easily and quickly All, that s just the effect is not all. Why? Experts on losing weight say, and people who managed to lose weight, echo them - each person needs a different, different from the other system of weight loss. One can lose weight diets, the second need fitness, others need to cleanse the body, solve health problems, because the reasons for completeness are different. And in order to quickly and effectively lose weight, each of us has to choose his personal complex of diets for weight loss, fitness, purification programs. Main Features - Diet for weight loss - Diet for weight loss 10 kg per week - Diet protein - Diet favorite</string>
+    <string name="gr_menu">weight Schedule</string>
+    <string name="kal_menu">calorie Calculator</string>
+    <string name="zgr_titl">weight Schedule</string>
+    <string name="calc_a">you ate</string>
+    <string name="calc_b">G Protein:</string>
+    <string name="calc_g">Fat grams:</string>
+    <string name="calc_k">Kcal:</string>
+    <string name="calc_s">Add to diary</string>
+    <string name="calc_t">Calculator</string>
+    <string name="calc_u">G Carbohydrates:</string>
+
+    <string name="evz">c</string>
+    <string name="edit_weight">Your weight: </string>
+    <string name="ev_d">date </string>
+    <string name="ev_v">Weight</string>
+    <string name="ev_b">New entry</string>
+    <string name="p_t">Enter the time</string>
+    <string name="feat_t">Enter eaten</string>
+    <string name="feat_g">How many grams eaten</string>
+    <string name="feat_c">calculate calories</string>
+    <string name="feat_e">Check the entered data</string>
+    <string name="feat_b">Adding a blog to 8 works in the pro version</string>
+    <string name="feat_s">New entry included</string>
+    <string name="d_no">No </string>
+    <string name="d_yes">Yes</string>
+    <string name="fdn_">Weight, g</string>
+    <string name="fdn_b">Proteins, g:</string>
+    <string name="fdn_g">Fats, g:</string>
+    <string name="fdn_u">Carbohydrates, g:</string>
+    <string name="fdn_o">Schedule</string>
+    <string name="fdn_k">KCalories:</string>
+    <string name="fdn_n">No data. Send your data to the screen, the calculation of calories</string>
+    <string name="zgr_del">Delete entry</string>
+    <string name="dn_but">Todays blog</string>
+    <string name="dn_title">Choose a date diary</string>
+    <string name="dna_menu">A diary </string>
+    <string name="f_ch" translatable="false">replace the product </string>
+    <string name="f_c">replace</string>
+    <string name="f_r">press and hold on the wrong product</string>
+</resources>

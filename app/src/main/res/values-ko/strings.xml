@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name = "navigation_drawer_open"> 탐색 창 열기 </string>
+        <string name = "navigation_drawer_close"> 탐색 창 닫기 </string>
+
+        <string name = "action_settings" translatable = "false"> 설정 </string>
+
+       
+        <string name = "hello_blank_fragment"> 여백이없는 조각 </string>
+        <string name = "riw"> 무게, g </string>
+        <string name = "riu"> 100g 당 탄수화물 g </string>
+        <string name = "rib">100g 당 단백질 g</string>
+        <string name = "rig"> 100g 당 지방 g </string>
+        <string name = "rik">100g 당 킬로 칼로리</string>
+        <string name = "blu"> 음식 </string>
+        <string name = "show">주식 버전은 2 식, 주심</string>
+        <string name = "show1">인터넷 연결을 확인</string>
+        <string name = "item1">사용 계산</string>
+        <string name = "item2">유료 버전의 제품을 작업을 사용자 정의</string>
+        <string name = "edit_weight_2" translatable = "false"> fgf </string>
+        <string name = "ge"> 섹스 </string>
+        <string name = "edit_weight4">남자</string>
+        <string name = "edit_weight5">여자</string>
+        <string name = "edit_1"> 체중 </string>
+        <string name = "edit_2">당신의 나이</string>
+        <string name = "edit_3"> 허리 </string>
+        <string name = "edit_4"> 성장 </string>
+        <string name = "edit_weight_cal">다이어트를 계산</string>
+        <string name = "edit_5"> 일 수 </string>
+        <string name = "tw">무게 미만 40 이상, 120kg 안</string>
+        <string name = "td">일수 5보다 더 없어야</string>
+        <string name = "tz">범위 (40) 155cm에 허리</string>
+        <string name = "ro">140 -210 cm의 범위에있는 성장</string>
+        <string name = "le">18-120의 범위에서 몇 년</string>
+        <string name = "day"> 일 </string>
+        <string name = "app_name">체중 감량을위한 다이어트</string>
+        <string name = "si1"> 체중 감량을위한 다이어트 </string>
+        <string name = "d_prom"> 체중 감량을위한 다이어트 </string>
+        <string name = "d_sh">체중 감량을위한 다이어트</string>
+        <string name = "save_m">다이어트에 추가</string>
+        <string name = "d_eat">먹었다</string>
+        <string name = "list_menu">제공 목록</string>
+        <string name = "calculate">다이어트를 계산</string>
+        <string name = "o_menu"> 다이어트 다운로드 </string>
+        <string name = "a_menu"> 프로그램 정보 </string>
+        <string name = "wait"> 대기 </string>
+        <string name = "wai">정보를 업데이트</string>
+        <string name = "about_t">우리의 식단은 주로 움직이지 않는 사람들, 거의 스포츠에 참여하고 무게를 잃고 싶지 위해 설계되었습니다. 우리는 건강한 제품을 기반으로 균형 잡힌 식단을 기대합니다. 많은 남성과 여성은 실제로 빠른 체중 감소를위한 효과적인 다이어트가 있는지 알고 싶으십니까? 아니면 그냥 신화와 건강 보조 식품의 제조 업체에 대한 속임수인가? 긴급한 필요가 당신의 마음에 드는 반바지에 들어가거나 즉시 행사를위한 다이어트가 있는가 ...의 인생에서 가장 중요한 행사로 변환 할 때 한편, 생활 시간, (그리고 충분)이 있습니까? 확실히 - 그래! 우리의 응용 프로그램이 포함 - 다이어트 계산기 - 조리법 체중 감소를위한 건강한 다이어트 음식 - 유용한 제품 설명 - 칼로리 계산기 (즉시 해제) - 무게 일기 (즉시 해제) - 음식 일기 (즉시 해제) - 두 다이어트 계산기 (출시 예정)을 쉽고 빠르게 원하는 무게를 잃고 모든, 그 생산 단지 효과는 모든되지이다. 이유는 무엇입니까? 체중 감량 전문가들은과 체중을 관리 한 사람들은 그들을 에코 - 모든 사람은 다른 무게 릴리스 시스템과 다른, 자신을 필요로한다. 이유의 충만이 다르기 때문에 하나는 무게 다이어트를 잃게하는 데 도움이 될 것입니다, 두 번째가 필요한 피트니스는, 다른 건강 문제를 해결, 몸을 정화해야합니다. 그리고 신속하고 효과적으로 체중을 잃게하기 위해, 우리 각자는 체중 감소, 피트니스, 세척 프로그램에 대한 다이어트의 자신의 개인적인 범위를 선택해야합니다. 하이라이트 - 다이어트 다이어트 - 다이어트 다이어트 일주일에 10kg - 다이어트 단백질 - 다이어트 애완 동물</string>
+        <string name = "gr_menu">무게 일정</string>
+        <string name = "kal_menu"> 칼로리 계산기 </string>
+        <string name = "zgr_titl">무게 일정</string>
+        <string name = "calc_a">당신은 식사를</string>
+        <string name = "calc_b"> G 단백질 : </string>
+        <string name = "calc_g"> 지방 그램 : </string>
+        <string name = "calc_k">킬로 칼로리 :</string>
+        <string name = "calc_s"> 일기에 추가 </string>
+        <string name = "calc_t"> 계산기 </string>
+        <string name = "calc_u">G 탄수화물 :</string>
+
+        <string name = "evz"> c </string>
+        <string name = "edit_weight"> 체중 : </string>
+        <string name = "ev_d"> 날짜 </string>
+        <string name = "ev_v">무게</string>
+        <string name = "ev_b"> 새 항목 </string>
+        <string name = "p_t">시간을 입력</string>
+        <string name = "feat_t">입력 먹</string>
+        <string name = "feat_g">몇 그램 먹을</string>
+        <string name = "feat_c">칼로리를 계산</string>
+        <string name = "feat_e">입력 된 데이터를 확인</string>
+        <string name = "feat_b">프로 버전에서 8 일에 블로그 추가</string>
+        <string name = "feat_s"> 새 항목 포함 </string>
+      <string name = "d_no">아니</string>
+         <string name = "d_yes"> 예 </string>
+         <string name = "fdn_"> 무게, g </string>
+         <string name = "fdn_b"> 단백질, g : </string>
+         <string name = "fdn_g"> 지방, g : </string>
+         <string name = "fdn_u"> 탄수화물, g : </string>
+         <string name = "fdn_o">일정 지방 단백질</string>
+         <string name = "fdn_k">칼로리 :</string>
+         <string name = "fdn_n">정보 없음. 화면에 칼로리 계산을 데이터를 전송</string>
+         <string name = "zgr_del">항목을 삭제</string>
+         <string name = "dn_but">오늘의 블로그</string>
+         <string name = "dn_title">날짜 일기를 선택</string>
+         <string name = "dna_menu"> 일기 </string>
+    <string name="f_r">언론과 잘못된 제품에 개최</string>
+    <string name="f_c">교체</string>
+    <string name="a_snak">첫째,당신은 필요한 계산하는 식단</string>
+    <string name="fm_titl">계산 규범의에서 주어진 일</string>
+    <string name="fm_g">에서 규범</string>
+    <string name="fm_b">계산 표준</string>
+</resources>

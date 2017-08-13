@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name = "navigation_drawer_open">ナビゲーション・ドロワーを開く</string>
+        <string name = "navigation_drawer_close">ナビゲーション・ドロワーを閉じる</string>
+
+        <string name = "action_settings" translatable = "false">設定</string>
+
+        <!-- TODO：このプレースホルダテキストを削除または変更する - -->
+        <string name = "hello_blank_fragment">ハローブランクフラグメント</string>
+        <string name = "riw">重量、グラム</string>
+        <string name = "riu">100グラム当たりの炭水化物のグラム</string>
+        <string name = "rib">100グラム当たりのタンパク質グラム</string>
+        <string name = "rig">100グラム当たり脂肪グラム</string>
+        <string name = "rik">100グラムあたりキロカロリー</string>
+        <string name = "blu">食品</string>
+        <string name = "show">在庫版のみ2食が示されています</string>
+        <string name = "show1">インターネット接続を確認してください</string>
+        <string name = "item1">カウントを使用します</string>
+        <string name = "item2">有料版では、製品の動作をカスタマイズします</string>
+        <string name = "edit_weight_2" translatable = "false"> fgf </string>
+        <string name = "ge">セックス</string>
+        <string name = "edit_weight4">男</string>
+        <string name = "edit_weight5">女</string>
+        <string name = "edit_1">あなたの体重</string>
+        <string name = "edit_2">あなたの年齢</string>
+        <string name = "edit_3">ウエスト</string>
+        <string name = "edit_4">成長</string>
+        <string name = "edit_weight_cal">ダイエットを計算</string>
+        <string name = "edit_5">日数</string>
+        <string name = "tw">重量は120キロ以上40未満ではなく、あってはなりません</string>
+        <string name = "td">日数は5以下であってはなりません</string>
+        <string name = "tz">範囲40155センチメートルでウエスト</string>
+        <string name = "ro">140-210センチメートルの範囲での成長</string>
+        <string name = "le">18から120の範囲で年</string>
+        <string name = "day">日</string>
+        <string name = "app_name">減量のためのダイエット</string>
+        <string name = "si1">ダイエットのための減量</string>
+        <string name = "d_prom">ダ​​イエットのための減量</string>
+        <string name = "d_sh">減量のためのダイエット</string>
+        <string name = "save_m">国会が追加しました</string>
+        <string name = "d_eat"> 食べました </string>
+        <string name = "list_menu">オファー一覧</string>
+        <string name = "calculate">ダイエットを計算</string>
+        <string name = "o_menu">ダイエットをダウンロードする</string>
+        <string name = "a_menu">プログラムについて</string>
+        <string name = "wait">待機</string>
+        <string name = "wai">情報を更新します</string>
+        <string name = "about_t">Нашадиетапредназначенавосновномдлятех、ктомалодвигается、почтинезанимаетсяспортомихочетпохудеть。
+Мырассчитываемсбалансированноепитаниянаосновеполезныхпродуктов。
+многиммужчинамиженщинаминтересноузнать、существуютлинасамомделедиетыэффективныеименнодлябыстрогопохудения？ ИлиэтолишьмифитрюкдляпроизводителейБАДов？ Межтемвжизнибываютмоменты（инемало）、когданужносрочновлезтьвлюбимыешортыилимоментальнопреобразитьсяпередважнейшимвжизниторжеством...Существуютлидиетынаэтотслучай？ Определенно - да！
+
+Нашеприложениесодержит
+- Калькулятордиеты
+- Рецептыблюдздоровогопитаниядляпохудения
+- Описаниеполезныхпродуктов
+- Калькуляторкалорий（ближайшаяверсия）
+- Дневниквеса（ближайшаяверсия）
+- Дневникпитания（ближайшаяверсия）
+- Двакалькуляторадиеты（скоро）
+Похудетьлегкоибыстрохотятвсе、воттолькоэффектполучаюневсе。 Почему？ Специалистыпопохудениюутверждают、алюди、которымудалосьпохудеть、вторятим - каждомучеловекунужнасвоя、отличнаяотдругихсистемасбросавеса。 Однойпохудетьпомогутдиеты、второйнуженфитнес、другиенуждаютсявочищенииорганизма、решениипроблемсоздоровьем、потомучтопричиныполнотыразные。 И、бистроиибестроиинаспредстоитвыбратьсвойличныйкомплексиздиетдляпохудения、фитнеса、очистительныхпрограмм。
+Основныеособенности
+- Диетадляпохудения
+- Диетадляпохудения10кгзанеделю
+- Диетабелковая
+- Диеталюбимая</string>
+        <string name = "gr_menu">重量スケジュール</string>
+        <string name = "kal_menu">カロリー計算</string>
+        <string name = "zgr_titl">重量スケジュール</string>
+        <string name = "calc_a">あなたが食べました</string>
+        <string name = "calc_b">Gタンパク質。</string>
+        <string name = "calc_g">脂肪グラム：</string>
+        <string name = "calc_k"> キロカロリー：</string>
+        <string name = "calc_s">日記に追加</string>
+        <string name = "calc_t"> 電卓 </string>
+        <string name = "calc_u"> G炭水化物：</string>
+
+        <string name = "evz"> c </string>
+        <string name = "edit_weight">あなたの体重：</string>
+        <string name = "ev_d">日付</string>
+        <string name = "ev_v">重量</string>
+        <string name = "ev_b">新規参入</string>
+        <string name = "p_t">時間を入力します</string>
+        <string name = "feat_t">入力食べ</string>
+        <string name = "feat_g">どのように多くのグラムを食べました</string>
+        <string name = "feat_c">カロリーを計算します</string>
+        <string name = "feat_e">入力されたデータを確認してください</string>
+        <string name = "feat_b">プロバージョンで8作品にブログを追加します</string>
+        <string name = "feat_s">新しいエントリが含ま</string>
+    <string name = "d_no">いいえ</string>
+         <string name = "d_yes">はい</string>
+         <string name = "fdn_">重量、グラムg</string>
+         <string name = "fdn_b">タンパク質、グラム：</string>
+         <string name = "fdn_g"> 脂肪、グラム：</string>
+         <string name = "fdn_u">炭水化物、グラム：</string>
+         <string name = "fdn_o">スケジュール脂肪タンパク質</string>
+         <string name = "fdn_k">カロリー：</string>
+         <string name = "fdn_n">情報なし。カロリーの計算を、画面にデータを送ります</string>
+         <string name = "zgr_del">エントリを削除します</string>
+         <string name = "dn_but">今日のブログ</string>
+         <string name = "dn_title">日付の日記を選択します。</string>
+         <string name = "dna_menu">日記</string>
+    <string name="f_c">交換します</string>
+    <string name="f_r">間違った製品上で長押し</string>
+    <string name="a_snak">第一に、必要なものの算定食</string>
+    <string name="fm_titl">計算の規範を与えられた日</string>
+    <string name="fm_g">から規範</string>
+    <string name="fm_b">計算の規範</string>
+</resources>

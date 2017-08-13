@@ -1,0 +1,111 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="riw">Вес, г</string>
+    <string name="riu">Углеводы  г на 100г</string>
+    <string name="rib">Белки г на 100г</string>
+    <string name="rig">Жиры  г на 100г</string>
+    <string name="rik">Ккал на 100г</string>
+    <string name="blu">Блюда</string>
+    <string name="show">В фри версии показывается только 2 блюд</string>
+    <string name="show1">Проверьте соединение с интернет</string>
+    <string name="item1">Использовать в расчете</string>
+    <string name="item2">Настройка продуктов работает в платной версии</string>
+    <string name="edit_weight_2">fgf</string>
+    <string name="ge">Пол</string>
+    <string name="edit_weight4">Мужчина</string>
+    <string name="edit_weight5">Женщина</string>
+    <string name="edit_1">Ваш вес</string>
+    <string name="edit_2">Ваш возраст</string>
+    <string name="edit_3">Обхват талии</string>
+    <string name="edit_4">Рост</string>
+    <string name="edit_weight_cal">Рассчитать диету</string>
+    <string name="edit_5">Кол во дней</string>
+    <string name="tw">Вес должен быть не менее 40 и не более 120 кг</string>
+    <string name="td">Количество дней не должно быть более 5</string>
+    <string name="tz">Талия в диапазоне 40 , 155 см</string>
+    <string name="ro">Рост в диапазоне 140 -210 см</string>
+    <string name="le">Лет в диапазоне 18-120</string>
+    <string name="day">День</string>
+    <string name="app_name">Диета для похудения</string>
+    <string name="si1">Диета для похудения</string>
+    <string name="d_prom">Диета для похудения</string>
+    <string name="d_sh">Диета для похудения</string>
+    <string name="save_m">Диета добавлена</string>
+    <string name="d_eat">Съел</string>
+    <string name="list_menu">Список продуктов</string>
+    <string name="calculate">Вычислить диету</string>
+    <string name="o_menu">Загрузить диету</string>
+    <string name="a_menu">О программе</string>
+    <string name="wait">Подождите</string>
+    <string name="wai">Обновляется информация</string>
+    <string name="about_t">Наша диета предназначена в основном для тех, кто мало двигается, почти не занимается спортом и хочет похудеть.
+Мы рассчитываем сбалансированное питания на основе полезных продуктов.
+Многим мужчинам и женщинам интересно узнать, существуют ли на самом деле диеты эффективные именно для быстрого похудения? Или это лишь миф и трюк для производителей БАДов? Меж тем в жизни бывают моменты (и не мало), когда нужно срочно влезть в любимые шорты или моментально преобразиться перед важнейшим в жизни торжеством... Существуют ли диеты на этот случай? Определенно - да!
+
+Наше приложение содержит
+- Калькулятор диеты
+- Рецепты блюд здорового питания для похудения
+- Описание полезных продуктов
+- Калькулятор калорий (ближайшая версия)
+- Дневник веса (ближайшая версия)
+- Дневник питания (ближайшая версия)
+- Два калькулятора диеты (скоро)
+Похудеть легко и быстро хотят все, вот только эффект получают не все. Почему? Специалисты по похудению утверждают, а люди, которым удалось похудеть, вторят им – каждому человеку нужна своя, отличная от других система сброса веса. Одной похудеть помогут диеты, второй нужен фитнес, другие нуждаются в очищении организма, решении проблем со здоровьем, потому что причины полноты разные. И, чтобы быстро и эффективно похудеть, каждой из нас предстоит выбрать свой личный комплекс из диет для похудения, фитнеса, очистительных программ.
+Основные особенности
+- Диета для похудения
+- Диета для похудения 10 кг за неделю
+- Диета белковая
+- Диета любимая</string>
+    <string name="gr_menu">График веса</string>
+    <string name="kal_menu">Калькулятор калорий</string>
+    <string name="zgr_titl">График веса</string>
+    <string name="calc_a">Вы съели</string>
+    <string name="calc_b">Белки г:</string>
+    <string name="calc_g">Жиры г:</string>
+    <string name="calc_k">Ккал:</string>
+    <string name="calc_s">Внести в дневник</string>
+    <string name="calc_t">Калькулятор</string>
+    <string name="calc_u">Углеводы г:</string>
+
+    <string name="evz">c</string>
+    <string name="edit_weight">Ваш вес:</string>
+    <string name="ev_d">Дата</string>
+    <string name="ev_v">Вес</string>
+    <string name="ev_b">Новая запись</string>
+    <string name="p_t">Введите время</string>
+    <string name="feat_t">Введите что съели</string>
+    <string name="feat_g">Сколько грамм съели</string>
+    <string name="feat_c">Посчитать калории</string>
+    <string name="feat_e">Проверьте правильность введенных данных</string>
+    <string name="feat_b">Добавление записей более 8 в дневник работает в про версии</string>
+    <string name="feat_s">Новая запись внесена</string>
+    <string name="d_no">Нет</string>
+    <string name="d_yes">Да</string>
+    <string name="fdn_">Вес, г</string>
+    <string name="fdn_b">Белки, г:</string>
+    <string name="fdn_g">Жиры, г:</string>
+    <string name="fdn_u">Углеводы, г:</string>
+    <string name="fdn_o">График бжу</string>
+    <string name="fdn_k">Ккалории:</string>
+    <string name="fdn_n">Нет данных. Отправьте данные в экране расчет калорий</string>
+    <string name="zgr_del">Удалить запись</string>
+    <string name="dn_but">Сегодняшний дневник</string>
+    <string name="dn_title">Выберите дату дневника</string>
+    <string name="dna_menu">Дневник</string>
+    <string name="f_ch">заменить продукт</string>
+    <string name="f_c">заменить</string>
+    <string name="f_r">нажмите и держите на ненужном продукте</string>
+
+    <string name="a_snak">Сначала необходимо рассчитать диету</string>
+    <string name="fm_titl">Расчет норм в конкретный день</string>
+    <string name="fm_g">от нормы</string>
+    <string name="fm_b">Рассчитать норму</string>
+</resources>

@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ru.jaguardesign.testnav.Package.FDne1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textView27"
+            android:layout_margin="0dp"
+            android:layout_gravity="center_horizontal" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/linegraph"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:id="@+id/textView28"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:id="@+id/lvData4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="#e8eaf6"
+            android:dividerHeight="1dip"   >
+        </ListView>
+    </LinearLayout> <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    app:elevation="6dp"
+    app:backgroundTint="@color/colorAccent"
+    app:pressedTranslationZ="12dp"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@drawable/a" />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

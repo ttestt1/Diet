@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_list" android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="@string/list_menu" />
+        <item android:id="@+id/nav_edit" android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="@string/calculate" />
+        <item android:id="@+id/nav_o" android:icon="@drawable/ic_file_upload_black_24dp"
+            android:title="@string/o_menu" />
+        <item android:id="@+id/nav_about" android:icon="@drawable/z"
+            android:title="@string/a_menu" />
+        <item android:id="@+id/nav_gr" android:icon="@drawable/ztrendingup"
+            android:title="@string/gr_menu" />
+        <item android:id="@+id/nav_kal" android:icon="@drawable/pot_mix"
+            android:title="@string/kal_menu" />
+        <item android:id="@+id/nav_dna" android:icon="@drawable/playlist_check"
+            android:title="@string/dna_menu" />
+    </group>
+
+
+
+</menu>
