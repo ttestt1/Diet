@@ -27,6 +27,8 @@ import org.json.JSONArray;
 
 import java.util.ArrayList;
 
+import ru.jaguardesign.testnav.EIPresenter.IMainPresenter;
+import ru.jaguardesign.testnav.EPresener.MainPresenter;
 import ru.jaguardesign.testnav.Package.BludAnwer;
 import ru.jaguardesign.testnav.Package.FAbout1;
 import ru.jaguardesign.testnav.Package.FBlu;
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity
         implements DneAnwer, NavigationView.OnNavigationItemSelectedListener,
 AsyncResponse,MainAnwer,ItemAnwer,EditResponse,BludAnwer, ResAnwer
 ,FgraAnwer, DnaAnwer{
+    IMainPresenter imainp;
 ProgressDialog ringProgressDialog;
     Context ctx;
     SharedPreferences sPref;
@@ -78,7 +81,7 @@ ProgressDialog ringProgressDialog;
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+imainp=(IMainPresenter) new MainPresenter(this,this);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -244,7 +247,7 @@ ProgressDialog ringProgressDialog;
 
         //ringProgressDialog = ProgressDialog.show(MainActivity.this, "Please wait ...", "Downloading Image ...", true);
         ringProgressDialog = ProgressDialog.show(MainActivity.this, getString(R.string.wait), getString(R.string.wai), true);
-        ringProgressDialog.setCancelable(true);
+        ringProgressDialog.setCancelable(true); imainp.Load();
         DB db = new DB(this);
         db.open();
         Cursor c=db.getS();
@@ -255,8 +258,8 @@ ProgressDialog ringProgressDialog;
         db.close();
 
         if (sync==0) {
-
-            Load mt = new Load(this,this);
+ //imainp.Load();
+        /*    Load mt = new Load(this,this);
             if (getResources().getConfiguration().locale.getLanguage().equals("ru")) {
                 mt.execute("http://kshp-company.ru/z_diet/1_.php?act=get_table_food"); }
             else
@@ -288,7 +291,7 @@ ProgressDialog ringProgressDialog;
                 mt.execute("http://kshp-company.ru/z_diet/1_.php?la=po&act=get_table_food"); }
             else
             {
-                mt.execute("http://kshp-company.ru/z_diet/1_.php?&la=en&act=get_table_food"); }
+                mt.execute("http://kshp-company.ru/z_diet/1_.php?&la=en&act=get_table_food"); }*/
             //mt.execute("http://kshp-company.ru/z_diet/1_.php?act=get_table_food");
            // mt.execute(URL);
         }
@@ -336,13 +339,13 @@ ProgressDialog ringProgressDialog;
 
    // }
     @Override
-    public void processFinish(JSONArray output) {
+    public void processFinish(JSONArray output) { imainp.Load1();
         Log.d("m__", "1");
         //this.Mainresult = output;
-        if (Check()) {
+        if (!Check()) {
             DB db = new DB(this);
             db.open();
-            db.upRecFood(output);
+          //  db.upRecFood(output);
             db.close();
             Load1 mt = new Load1(this);
             Load2 mt1 = new Load2(this);

@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import ru.jaguardesign.testnav.EPresener.EditFPre;
 import ru.jaguardesign.testnav.R;
 import ru.jaguardesign.testnav.EditResponse;
 /**
@@ -25,7 +26,7 @@ import ru.jaguardesign.testnav.EditResponse;
  * Use the {@link FEdit#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FEdit extends Fragment {
+public class FEdit extends Fragment { EditFPre editpre;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -66,6 +67,7 @@ public class FEdit extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        editpre=new EditFPre(getActivity().getApplicationContext());
     }
     EditResponse editresponse;
     EditText ed;
@@ -147,6 +149,8 @@ public class FEdit extends Fragment {
                     toast.show();
                 }*/
                  z=Check(w,d,tal,ro,le);
+                //z=0;
+                editpre.Check(w,d,tal,ro,le);
                 if (z == 0) {
                     int zz = 0;
                 } else
@@ -200,38 +204,7 @@ public class FEdit extends Fragment {
  {
   Context   ctx=getActivity().getApplicationContext();
      int z=1;
-     if (w < 40 || w > 120) {
-         z = 0;
-         ed.setText("80");
-         Toast toast = Toast.makeText(ctx, getString(R.string.tw),
-                 Toast.LENGTH_SHORT);
-         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
-         toast.show();
-     }
-     if (d < 1 || d > 5) {
-         z = 0;
-         ed5.setText("2");
-         Toast toast = Toast.makeText(ctx, getString(R.string.td),
-                 Toast.LENGTH_SHORT);
-         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
-         toast.show();
-     }
-     if (tal < 40 || tal > 155) {
-         z = 0;
-         ed3.setText("50");
-         Toast toast = Toast.makeText(ctx, getString(R.string.tz),
-                 Toast.LENGTH_SHORT);
-         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
-         toast.show();
-     }
-     if (ro < 140 || ro > 210) {
-         z = 0;
-         ed4.setText("170");
-         Toast toast = Toast.makeText(ctx, getString(R.string.ro),
-                 Toast.LENGTH_SHORT);
-         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
-         toast.show();
-     }
+    // if (!editpre.Check1(le)){
      if (le < 18 || le > 120) {
          z = 0;
          ed2.setText("25");
@@ -240,6 +213,43 @@ public class FEdit extends Fragment {
          // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
          toast.show();
      }
+     //if (!editpre.CheckWeight(w)){
+     if (w < 40 || w > 120) {
+         z = 0;
+         ed.setText("80");
+         Toast toast = Toast.makeText(ctx, getString(R.string.tw),
+                 Toast.LENGTH_SHORT);
+         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+         toast.show();
+     }
+     //if (!editpre.CheckDay(d)){
+     if (d < 1 || d > 5) {
+         z = 0;
+         ed5.setText("2");
+         Toast toast = Toast.makeText(ctx, getString(R.string.td),
+                 Toast.LENGTH_SHORT);
+         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+         toast.show();
+     }
+     //if (!editpre.CheckTal(tal)){
+     if (tal < 40 || tal > 155) {
+         z = 0;
+         ed3.setText("50");
+         Toast toast = Toast.makeText(ctx, getString(R.string.tz),
+                 Toast.LENGTH_SHORT);
+         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+         toast.show();
+     }
+     //if (!editpre.CheckRost(ro)){
+     if (ro < 140 || ro > 210) {
+         z = 0;
+         ed4.setText("170");
+         Toast toast = Toast.makeText(ctx, getString(R.string.ro),
+                 Toast.LENGTH_SHORT);
+         // toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
+         toast.show();
+     }
+
      return z;
  }
 }

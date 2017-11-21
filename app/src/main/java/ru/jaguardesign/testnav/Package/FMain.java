@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import ru.jaguardesign.testnav.DB;
+import ru.jaguardesign.testnav.EPresener.MainFPre;
 import ru.jaguardesign.testnav.MainAnwer;
 import ru.jaguardesign.testnav.R;
 
@@ -26,7 +27,7 @@ import ru.jaguardesign.testnav.R;
  * Use the {@link FMain#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FMain extends Fragment {
+public class FMain extends Fragment { MainFPre mainpre;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -67,7 +68,7 @@ public class FMain extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        ctx=getActivity().getApplicationContext();
+        ctx=getActivity().getApplicationContext(); mainpre=new MainFPre(ctx);
     }
     DB db;
     Cursor cursor;
@@ -82,9 +83,10 @@ public class FMain extends Fragment {
         // Inflate the layout for this fragment
        // return inflater.inflate(R.layout.fragment_fmain, container, false);
         View v = inflater.inflate(R.layout.fragment_fmain, container, false);
-        db = new DB(ctx);
-        db.open();
-        cursor = db.getAllDataFood();
+      //  db = new DB(ctx);
+//        db.open();
+        cursor = mainpre.GetLis();
+       // cursor = db.getAllDataFood();
         getActivity().startManagingCursor(cursor);
         String[] from = new String[] { DB.UID, DB.TITLE,DB.C };
         int[] to = new int[] { R.id.id_list_Text, R.id.title_list_Text,R.id.checkBox2 };
